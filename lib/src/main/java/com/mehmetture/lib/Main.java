@@ -15,9 +15,19 @@ public class Main {
         double alan = pi*r*r;
         double hacim = (4.0/3)*pi*r*r*r;
 
-        System.out.println("ALAN:" + alan);
+        System.out.println("ALAN: " + alan);
 
-        System.out.println("HACİM:" + hacim);
+        System.out.println("HACİM: " + hacim);
+
+
+        boolean isAlive = true;
+        isAlive = false;
+
+        System.out.println(isAlive);
+
+        final int myInteger = 15;
+
+        System.out.println("myInteger: " + myInteger);
 
 
     }
